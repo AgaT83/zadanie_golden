@@ -2,6 +2,10 @@ body {
   font-size: 20px;
 }
 
+section {
+  margin-bottom: 100px;
+}
+
 .container {
   text-align: center;
 }
@@ -96,12 +100,60 @@ i {
 
 .fas {
   line-height: 95px;
-  text-align: center;
 }
 
 .col-4 h5 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #f5efef;
+}
+
+.gallery {
+  background-color: white;
+}
+
+.gallery img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card-text {
+  margin-top: 0;
+  padding-bottom: 25px;
+}
+
+/* Footer */
+.icons li {
+  font-size: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.icons i {
+  font-size: 20px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.fab {
+  line-height: 2;
 }
 /*# sourceMappingURL=style.css.map */

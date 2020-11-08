@@ -44,12 +44,16 @@ body {
     height: 100vh;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
+    background-position: center center;
 }
+
 .intro-inner {
     position: absolute;
     width: 100%;
-    text-align: center;
-    top: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .intro-inner h1 {
@@ -79,7 +83,7 @@ body {
     font-family: $font-header;
 }
 
-.col-2 h3 {
+.logo {
     color: $color-second;
     font-family: 'Lobster', cursive;
     letter-spacing: 3px;
